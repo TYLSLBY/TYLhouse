@@ -1,0 +1,225 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+}
+a{
+    color:#000;
+}
+.all{
+    width: 16rem;
+    height: 100%;
+    position:relative;
+}
+.all .header{
+    width: 16rem;
+    height: 2.2rem;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.all .header p{
+    width: 5.875rem;
+    height: 1.55rem;
+    display: inline-block;
+    margin: 0.275rem 0 0.375rem 4.8rem;
+}
+.all .header p img{
+    width: 100%;
+    height: 100%;
+}
+.all .header span{
+    display: inline-block;
+    width: 1.025rem;
+    height: 0.825rem;
+    position:absolute;
+    left: 14.525rem;top: 0.7rem;
+    color:#0760E5;
+    font-size: 0.825rem;
+}
+.all .t_banner{
+    width: 16rem;
+    height: 7.75rem;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.all .t_banner img{
+    width: 100%;
+    height: 100%;
+}
+.all .t_banner a span{
+    width: 0.8rem;
+    height: 1.15rem;
+    background-color:rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    text-align: center;
+    line-height: 1.15rem;
+}
+.all .t_banner .t_left{
+    position:absolute;
+    left: 0.5rem;top: 3rem;
+    color:#fff;
+}
+.all .t_banner .t_right{
+    position:absolute;
+    left: 14.7rem;top: 3rem;
+    color:#fff;
+}
+.all .guanyu{
+    width: 15.05rem;
+    height: 2.7rem;
+    position:absolute;
+    left: 0.475rem;top: 9rem;
+}
+.all .guanyu .gp{
+    width: 3.5rem;
+    height: 3.5rem;
+    float: left;
+}
+.all .guanyu .gp img{
+    width: 100%;
+    height: 100%;
+}
+.all .guanyu p{
+    display: inline-block;
+    margin-left: 0.5rem;
+    font-family: '黑体';
+    font-size: 0.4rem;
+    font-weight: bold;
+}
+
+.all .call{
+    width: 15.075rem;
+    height: 6.05rem;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.all .call p{
+    font-family: '黑体';
+    font-size: 0.75rem;
+    line-height: 1.75rem;
+}
+.all .call span{
+    display: block;
+    font-family: '黑体';
+    font-size: 0.65rem;
+    color:#918F8F;
+    line-height: 0.9rem;
+}
+
+.all .map{
+    width: 15.05rem;
+    height: 11.05rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.825rem;
+}
+.all .map a img{
+    width: 100%;
+    height: 100%;
+}
+
+.all .address{
+    width: 15.075rem;
+    height: 4.175rem;
+    border-radius:0.175rem;
+    background-color:#1259E6;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.825rem;
+    position:relative;
+}
+.all .address p{
+    font-family: '黑体';
+    font-size: 0.75rem;
+    line-height: 2rem;
+}
+.all .address span{
+    display: block;
+    font-family: '黑体';
+    font-size: 0.6rem;
+    line-height: 0.95rem;
+}
+.all .address p,.all .address span{
+    color:#fff;
+    width: 14.225rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.all .address label{
+    display: block;
+    width: 1.9rem;
+    height: 1.9rem;
+    position:absolute;
+    left: 6.55rem;top: -0.5rem;
+}
+.all .address label img{
+    width: 100%;
+    height: 100%;
+}
+.all .wechat{
+    width: 14.575rem;
+    height: 7.75rem;
+    border:1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0.25rem 0.25rem 0 0.25rem;
+}
+.all .wechat .left{
+    margin-right: 1.8rem;
+}
+.all .wechat span{
+    display: inline-block;
+    width: 6.225rem;
+    height: 6.225rem;
+}
+.all .wechat span img{
+    width: 100%;
+    height: 100%;
+}
+.all .wechat span p{
+    text-align: center;
+    font-family: '黑体';
+    font-size: 0.6rem;
+}
+
+.all .dingwei{
+    position:fixed;
+    left: 13.2rem;top: 24rem;
+}
+.all .dingwei div{
+    width: 2.325rem;
+    height: 2.325rem;
+    margin-top: 0.1rem;
+}
+.all .dingwei div img{
+    width: 100%;
+    height: 100%;
+}
+.all .dingwei .shouqi{
+    width: 2.325rem;
+    height: 1.375rem;
+}
+
+.all .footer{
+    width: 16rem;
+    height: 3.7rem;
+    background-color:#4A4A4A;
+    padding-top: 0.55rem;
+    /* position:absolute;
+    left: 0;top: 22.5rem; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+.all .footer p{
+    font-family: '黑体';
+    font-size: 0.35rem;
+    color:#ccc;
+    line-height: 1.05rem;
+    margin-left: 0.4625rem;
+}
