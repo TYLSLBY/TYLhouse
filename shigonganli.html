@@ -11,14 +11,50 @@
 	        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
 	        var _html = document.getElementsByTagName('html')[0];
 	        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
-	    }
+            var caidan=document.getElementById('caidan');
+            var list=document.getElementById('nav');
+            var guanbi=document.getElementById('guanbi');
+
+            caidan.onclick=function () {
+                list.style.display='block';
+            }
+
+            guanbi.onclick=function () {
+                list.style.display='none';
+            }
+
+            shouqi.onclick=function () {
+                zhedie.style.display='none';
+                shouqi.style.display='none';
+                show.style.display='block';
+            }
+
+            show.onclick=function () {
+                zhedie.style.display='block';
+                shouqi.style.display='block';
+                show.style.display='none';
+            }
+        }
 	</script>
 </head>
 <body>
     <div class="all">
         <div class="header">
             <p><img src="images/logo.png" alt="logo"></p>
-            <span class="iconfont icon-caidan"></span>
+            <a href="javascript:;"><span id="caidan" class="iconfont icon-caidan"></span></a>
+            <div id="nav">
+                <p><img src="images/logo.png" alt="logo"></p>
+                <a href="javascript:;"><span id="guanbi" class="iconfont icon-guanbi"></span></a>
+                <label for=""><a href="index.html">首页</a></label>
+                <label for=""><a href="gongsijianjie.html">关于攻略</a></label>
+                <label for=""><a href="shigonganli.html">施工案例</a></label>
+                <label for=""><a href="xinwenzixun.html">新闻资讯</a></label>
+                <label for=""><a href="lianxiwomen.html">联系我们</a></label>
+                <strong>
+                    <a href="javascript:;">646464623134<br>654657654654</a>
+                    <p><img src="images/phone.png" alt=""></p>
+                </strong>
+            </div>
         </div>
         <div class="t_banner">
             <img src="images/banner1.png" alt="">
@@ -36,11 +72,11 @@
 
         <div class="fenlei">
             <ul>
-                <li>标识导视</li>
-                <li>广告工程</li>
-                <li>户外媒体</li>
-                <li>景观亮化</li>
-                <li>钢结构</li>
+                <li><a href="shigonganli.html">标识导视</a></li>
+                <li><a href="shigonganli - xiangqing.html">广告工程</a></li>
+                <li><a href="javascript:;">户外媒体</a></li>
+                <li><a href="javascript:;">景观亮化</a></li>
+                <li><a href="javascript:;">钢结构</a></li>
             </ul>
         </div>
 
@@ -97,14 +133,14 @@
             </form>
         </div>
 
-
-
-
         <div class="dingwei">
-            <div><img src="images/kefu.png" alt=""></div>
-            <div><img src="images/dianhua.png" alt=""></div>
-            <div><img src="images/weixin.png" alt=""></div>
-            <div class="shouqi"><img src="images/shouqi.png" alt=""></div>
+            <div id="zhedie">
+                <div><img src="images/kefu.png" alt=""></div>
+                <div><img src="images/dianhua.png" alt=""></div>
+                <div><img src="images/weixin.png" alt=""></div>
+            </div>
+            <div id="shouqi"><a href="javascript:;"><img src="images/shouqi.png" alt=""></a></div>
+            <div id="show"><a href="javascript:;"><img src="images/show.png" alt=""></a></div>
         </div>
 
         <div class="footer">

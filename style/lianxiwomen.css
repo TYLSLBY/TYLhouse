@@ -39,6 +39,51 @@ a{
     color:#0760E5;
     font-size: 0.825rem;
 }
+.all .header #nav{
+    width: 16rem;
+    height: 34.675rem;
+    position:absolute;
+    left: 0;top: 2.2rem;
+    z-index: 20;
+    background-color:#fff;
+    margin-top: -2.2rem;
+    display: none;
+}
+.all .header #nav p{
+    margin-bottom: 2rem;
+}
+.all .header #nav a{
+    display: block;
+    color:#000;
+}
+.all .header #nav label a{
+    display: block;
+    text-align: center;
+    line-height: 4.075rem;
+    font-family: '黑体';
+    font-size: 0.6rem;
+}
+.all .header #nav strong{
+    position:relative;
+}
+.all .header #nav strong a{
+    display: block;
+    text-align: center;
+    font-family: '黑体';
+    font-size: 0.6rem;
+    margin-top: 2rem;
+    padding:0.25rem 0 0.25rem 0;
+}
+.all .header #nav strong p{
+    width: 1.675rem;
+    height: 1.675rem;
+    position:absolute;
+    left: 0rem;top: 1.8rem;
+}
+.all .header #nav strong p img{
+    width: 100%;
+    height: 100%;
+}
 .all .t_banner{
     width: 16rem;
     height: 7.75rem;
@@ -191,7 +236,10 @@ a{
     position:fixed;
     left: 13.2rem;top: 8rem;
 }
-.all .dingwei div{
+.all .dingwei #zhedie{
+    display: none;
+}
+.all .dingwei #zhedie div{
     width: 2.325rem;
     height: 2.325rem;
     margin-top: 0.1rem;
@@ -200,9 +248,17 @@ a{
     width: 100%;
     height: 100%;
 }
-.all .dingwei .shouqi{
+.all .dingwei #shouqi{
     width: 2.325rem;
     height: 1.375rem;
+    margin-top: 0.1rem;
+    display: none;
+}
+.all .dingwei #show{
+    width: 2.325rem;
+    height: 1.375rem;
+    margin-top: 0.1rem;
+    display: block;
 }
 
 .all .footer{

@@ -27,6 +27,13 @@
       "unicode_decimal": 58968
     },
     {
+      "icon_id": "1110411",
+      "name": "下箭头",
+      "font_class": "jiantou9",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
       "icon_id": "1127398",
       "name": "左箭头",
       "font_class": "leftarrow",
@@ -46,6 +53,13 @@
       "font_class": "youjiantou1",
       "unicode": "e603",
       "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "6204091",
+      "name": "关  闭",
+      "font_class": "guanbi",
+      "unicode": "e608",
+      "unicode_decimal": 58888
     },
     {
       "icon_id": "10936644",
