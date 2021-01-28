@@ -148,6 +148,9 @@ a{
     font-size:0;
     border-bottom:4px solid #EBEBEB;
 }
+.all .fenlei ul .active{
+    border-bottom:4px solid #1259E6;
+}
 .all .fenlei ul li{
     display: inline-block;
     font-family: '黑体';
