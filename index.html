@@ -14,9 +14,16 @@
             var caidan=document.getElementById('caidan');
             var list=document.getElementById('nav');
             var guanbi=document.getElementById('guanbi');
+
             var zhedie=document.getElementById('zhedie');
             var shouqi=document.getElementById('shouqi');
             var show=document.getElementById('show');
+
+            // var t_banner=document.getElementById('t_banner');
+            // var lunbotu=document.getElementById('lunbotu');
+            // var t_left=document.getElementById('t_left');
+            // var t_right=document.getElementById('t_right');
+
 
             caidan.onclick=function () {
                 list.style.display='block';
@@ -25,6 +32,7 @@
             guanbi.onclick=function () {
                 list.style.display='none';
             }
+
 
             shouqi.onclick=function () {
                 zhedie.style.display='none';
@@ -37,6 +45,10 @@
                 shouqi.style.display='block';
                 show.style.display='none';
             }
+
+            // t_left.onclick=function () {
+            //     lunboto.style.left='16rem';
+            // }
         }
 	</script>
 </head>
@@ -60,10 +72,14 @@
             </div>
         </div>
 
-        <div class="t_banner">
-            <img src="images/banner1.png" alt="">
-            <a href="javascript:;"><span class="iconfont icon-zuojiantou t_left"></span></a>
-            <a href="javascript:;"><span class="iconfont icon-youjiantou t_right"></span></a>
+        <div id="t_banner">
+            <ul id="lunbotu">
+                <li><img src="images/banner1.png" alt=""></li>
+                <li><img src="images/banner1副本1.png" alt=""></li>
+                <li><img src="images/banner1 - 副本2.png" alt=""></li>
+            </ul>
+            <a href="javascript:;"><span class="iconfont icon-zuojiantou" id="t_left"></span></a>
+            <a href="javascript:;"><span class="iconfont icon-youjiantou" id="t_right"></span></a>
         </div>
 
         <div class="jingguan">
